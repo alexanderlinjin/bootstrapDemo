@@ -1,0 +1,38 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--    引入bootstrap要把这三个放在前面-->
+    <title>1</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" >
+    <style>
+        .d1{
+            position: relative;
+            
+            background-color: greenyellow;
+            height: 50vh;
+            
+        }
+        .d2{
+            position: relative;
+            
+            background-color: blueviolet;
+            height: 30vh;
+            
+        }
+    </style>
+    </head>
+<body>
+<!--    第一种方法,通过boostrap的col类-->
+<!--    第二种方法,自己写float和宽度-->
+    <div class="container">
+    <div class="row">
+        <div class="d1 col-xs-9 col-lg-2"></div>
+    <div class="d2 col-xs-3 col-lg-10"></div>
+        </div>
+    </div>
+    
+    </body>
+</html>
